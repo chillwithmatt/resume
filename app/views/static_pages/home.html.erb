@@ -1,0 +1,28 @@
+<div id="spotlight" class="jumbotron">
+
+	<div class="content"> 
+
+		<span id="head">Hi, I'm Matt.</span>
+
+		<%= image_tag("avatar.png", id: "avatar") %>
+
+		<div id="blurb">
+			Get to know me a little better by following the links below.
+		</div>
+
+		View my <%= link_to "resume", resume_path, :target => "_blank", id: "link" %>.<br>
+
+		Check me out on <%= link_to "facebook", "https://www.facebook.com/mattttttt", :target => "_blank", id: "link" %> or 
+		<%= link_to "linkedin", "https://www.linkedin.com/in/mattli/", :target => "_blank", id: "link" %>.<br>
+
+		Take a look at some of the projects I've worked on
+		(<%= link_to "basedchef", "https://www.basedchef.com", :target => "_blank", id: "link" %>, 
+		<%= link_to "lovemusicproject", "http://www.lovemusicproject.com", :target => "_blank", id: "link" %>).
+
+		<div id="contact">
+			Contact me ~> <b><%= mail_to "mtl858@gmail.com", "mtl858@gmail.com", :target => "_blank" %>
+		</div>
+
+	</div>
+
+</div>
